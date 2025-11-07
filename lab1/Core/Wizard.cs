@@ -48,7 +48,8 @@ namespace MagicWorld
             return new Spell("", 0);
         }
 
-        public void TakeDamage(int damage) {
+        public virtual void TakeDamage(int damage)
+        {
             Health -= damage;
         }
 
